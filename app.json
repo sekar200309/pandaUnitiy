@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "PandaUnity",
+    "slug": "PandaUnity",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sekar09.PandaUnity"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/Icon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/Icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "f5532235-db9e-4b25-ba92-19bebb9633d2"
+      }
+    }
+  }
+}
