@@ -7,6 +7,7 @@ import { Colors } from '../../constants/Colors';
 import BusinessListCard from '../../components/BusinessListByCategory/BusinessListCard'
 
 export default function BusinessListByCategory() {
+  
   const navigation = useNavigation();
 
   const { category } = useLocalSearchParams();
