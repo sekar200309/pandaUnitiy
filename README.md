@@ -73,7 +73,14 @@
 
 ## 📸 Screenshots & Prototype Link
 
-📷 **App Screenshots** *(Upload screenshots here)*  
+📷 **App Screenshots**  
+![Screenshot 1](https://drive.google.com/file/d/141gm_g3Mwga0Np3Viu-R2W2bkdFcKX43/view?usp=drive_link)  
+![Screenshot 2](https://drive.google.com/file/d/1JgNAWHCjP9zxy2eKZyLfeBSlNPsfIlVU/view?usp=drive_link)  
+![Screenshot 3](https://drive.google.com/file/d/1hW1ep-qRJ-J6F3_4PI9tLc4hRIds_jep/view?usp=drive_link)  
+![Screenshot 4](https://drive.google.com/file/d/1XtaOulyxYXwPnp59vcRSSgDZWotE97M7/view?usp=drive_link)  
+![Screenshot 5](https://drive.google.com/file/d/1iVJlo3UJ1whNT7FTcRu5xZSrJPgjgT7e/view?usp=drive_link)  
+![Screenshot 6](https://drive.google.com/file/d/1JrVbe71vSCRxQ3rhgb-EtxK8Hf6hNp8Y/view?usp=drive_link)  
+
 🔗 **Figma Prototype** – [Insert Figma Link Here]
 
 ## 📥 Installation & Setup
