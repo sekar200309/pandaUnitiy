@@ -15,12 +15,24 @@
 
 ![Purpose](https://your-image-link-here.com/purpose.svg)
 
+## 👥 Clients & Sponsors
+
+### **Clients (Target Users):**
+- Engineering students (ECE, IT, CSE, Mechanical, etc.)
+- College communities & tech clubs
+- Aspiring developers & project teams
+- Anyone looking for a **structured learning and collaboration platform**
+
+### **Sponsors:**
+- (Currently self-funded, with future plans for sponsorships or institutional support)
+
 ## 🚀 Features
 
 - ✅ **User Authentication** (Google via Clerk)
 - ✅ **Real-time Chat & Discussions**
 - ✅ **Community Creation & Management**
 - ✅ **Profile Customization & Sharing**
+- ✅ **Community Navigation** (Easily browse and join different topic-based communities)
 
 ![Features](https://your-image-link-here.com/features.svg)
 
@@ -53,6 +65,12 @@
 
 ![Tech Stack](https://your-image-link-here.com/techstack.svg)
 
+## 🔥 How Firebase Works in This App
+
+- Stores user profiles, messages, and community details in **Firestore**.
+- Uses **real-time listeners** to update chat messages and community activity instantly.
+- Provides **scalable and secure** data management.
+
 ## 📸 Screenshots & Prototype Link
 
 📷 **App Screenshots** *(Upload screenshots here)*  
@@ -66,10 +84,10 @@ git clone https://github.com/your-repo/pandaUnity.git
 cd pandaUnity
 
 # Install dependencies
-yarn install  # or npm install
+npm install
 
 # Run the app
-yarn start  # or npm start
+npm expo start
 ```
 
 ## 📢 Contributing
