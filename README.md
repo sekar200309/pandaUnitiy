@@ -1,7 +1,7 @@
 # 🐼 PandaUnity - Community App
 
 ![PandaUnity Banner](https://your-image-link-here.com/banner.svg)
-<img src="https://github.com/user-attachments/assets/6035689a-3be1-4edd-ba42-0b6ead974d45" width="500">
+<img src="https://github.com/user-attachments/assets/6035689a-3be1-4edd-ba42-0b6ead974d45" width="150" height="150">
 
 ## 📌 Problem Statement
 
