@@ -52,7 +52,7 @@ const onCategoryPressHandle = (item) => {
       <Text style={{
         fontSize:20,
         fontFamily:'outfitB'
-      }}>Communities</Text>
+      }}>Categories</Text>
       {/* <Text style={{color:Colors.PRIMARY,fontFamily:'outfitM'}}>view all</Text> */}
     </View>}
 

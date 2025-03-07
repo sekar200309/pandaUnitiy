@@ -12,10 +12,13 @@ const Home = () => {
 
       {/* Header */}
       <Header/>
+
       {/* Slider */}
-      <Slider />
+      {/* <Slider /> */}
+
       {/* Category */}
       <Category />
+      
       {/* Popular Business List */}
       <PopularBusiness />
 

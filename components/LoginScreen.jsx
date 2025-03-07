@@ -126,7 +126,7 @@ const LoginScreen = () => {
           style={[
             styles.image,
             {
-              width: width * 0.8, // Make the image width 80% of the screen width
+              width: width * 0.68, // Make the image width 80% of the screen width
               height: height * 0.6, // Make the image height 60% of the screen height
             },
           ]}
@@ -135,9 +135,9 @@ const LoginScreen = () => {
 
       <View style={styles.subcontainer}>
         <Text style={styles.title}>
-          Your Ultimate
-          <Text style={{ color: Colors.PRIMARY }}> Community Business Directory </Text>
-          App
+          Where 
+          <Text style={{ color: Colors.PRIMARY }}> Education Meets Connection </Text>
+          Your Smart App
         </Text>
 
         <TouchableOpacity style={styles.button} onPress={onPress}>

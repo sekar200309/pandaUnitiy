@@ -15,7 +15,7 @@ const ActionButton = ({details}) => {
             id:2,
             name:'Web',
             icon:require('./../../assets/images/web.png'),
-            url:"https://"+details.website
+            url:"https://example.com/"
         },
         // {
         //     id:3,
@@ -34,9 +34,10 @@ const ActionButton = ({details}) => {
     const handleUrl=(item)=>{
         if(item.name =='Share'){
             Share.share({
-                message:details?.name+"\n"+details.website+"\n Find more details in App"
+                message: 'Check out this amazing app! Download it here: https://drive.google.com/drive/folders/1Hii74H15Zq-KEoEsZ51FbUqr1RcPtCRg?usp=sharing',
+                url: 'https://drive.google.com/drive/folders/1Hii74H15Zq-KEoEsZ51FbUqr1RcPtCRg?usp=sharing' 
             })
-            return ;
+            return ;            
         }
         Linking.openURL(item.url)
     }

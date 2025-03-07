@@ -11,10 +11,7 @@ const Header = () => {
         backgroundColor:Colors.PRIMARY
     }}>
       
-      <StatusBar
-        backgroundColor={Colors.PRIMARY} // Matches the header background color
-        barStyle="light-content" // Makes the text/icons on the status bar light
-      />
+      <StatusBar backgroundColor={Colors.PRIMARY} barStyle="light-content" />
       <View style={{
         display:'flex',
         flexDirection:'row',
@@ -39,8 +36,9 @@ const Header = () => {
              }}>{user?.fullName}</Text>
            </View>
       </View>
+      
       {/* Search bar */}
-      <View style={{display:'flex',
+      {/* <View style={{display:'flex',
         flexDirection:'row',
        alignItems:'center',
        gap:10,
@@ -58,7 +56,7 @@ const Header = () => {
                 color:Colors.PRIMARY
             }}
         />
-      </View>
+      </View> */}
     </View>
 
   )

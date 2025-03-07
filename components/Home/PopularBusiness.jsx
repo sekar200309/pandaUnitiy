@@ -37,16 +37,17 @@ const PopularBusiness = () => {
         <View style={{
             display:'flex',
             flexDirection:'row',
-            marginTop:20,
-            marginLeft:20,
-            marginRight:20,
+            // marginTop:20,
+            // marginLeft:20,
+            // marginRight:20,
+            margin:20,
             alignItems:'center',
             justifyContent:'space-between'
         }}>
           <Text style={{
               fontSize:20,
               fontFamily:'outfitB'
-            }}>PopularCommunities</Text>
+            }}>Communities</Text>
           {/* <Text style={{color:Colors.PRIMARY,fontFamily:'outfitM'}}>view all</Text> */}
         </View>
 
@@ -56,8 +57,9 @@ const PopularBusiness = () => {
           renderItem={({item,index})=>(
             <PopularCard business={item}/>
           )}
-          horizontal={true}
-          showsHorizontalScrollIndicator={false}
+          numColumns={2}
+          // horizontal={true}
+          // showsHorizontalScrollIndicator={false}
         />
     </View>
   )

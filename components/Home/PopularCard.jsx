@@ -13,17 +13,18 @@ const PopularCard = ({business}) => {
 
     onPress={()=> router.push(`/businessDetails/${business.id}`)}
         style={{
-            marginTop:15,
-            marginLeft:20,
-            padding:10,
+            // marginTop:15,
+            // marginLeft:20,
+            margin:10,
+            padding:15,
             backgroundColor:'#fff',
             borderRadius:15
         }}
     >
         <Image source={{uri:business.imageUrl}} 
             style={{
-                width:200,
-                height:130,
+                width:170,
+                height:127,
                 borderRadius:15
             }}
         />

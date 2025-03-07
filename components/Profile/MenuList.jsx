@@ -40,13 +40,20 @@ const MenuList = () => {
             return; // Prevent further execution
         }
     
+        // if (item.path === 'share') {
+        //     Share.share({
+        //         message: 'Download the Community app'
+        //     });
+        //     return; // Prevent further execution
+        // }
+
         if (item.path === 'share') {
             Share.share({
-                message: 'Download the Community app'
+                message: 'Check out this amazing app! Download it here: https://drive.google.com/drive/folders/1Hii74H15Zq-KEoEsZ51FbUqr1RcPtCRg?usp=sharing',
+                url: 'https://drive.google.com/drive/folders/1Hii74H15Zq-KEoEsZ51FbUqr1RcPtCRg?usp=sharing' // Use your actual app store link
             });
-            return; // Prevent further execution
+            return;
         }
-    
         // Navigate only if it's a valid route
         router.push(item.path);
     };
