@@ -1,51 +1,107 @@
-# Welcome to your Expo app 👋
+# 🐼 PandaUnity - Community App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![PandaUnity Banner](https://your-image-link-here.com/banner.svg)
+<img src="https://github.com/user-attachments/assets/6035689a-3be1-4edd-ba42-0b6ead974d45" width="150" height="150">
 
-## Get started
+## 📌 Problem Statement
 
-1. Install dependencies
+> Finding the right knowledge-sharing platform can be difficult. **PandaUnity** bridges this gap with a **real-time collaborative environment**.
 
-   ```bash
-   npm install
-   ```
+## 🎯 Purpose
 
-2. Start the app
+✅ **Join & create communities**  
+✅ **Engage in discussions**  
+✅ **Share knowledge & get career guidance**  
+✅ **Real-time chat & collaboration**  
 
-   ```bash
-    npx expo start
-   ```
+![Purpose](https://your-image-link-here.com/purpose.svg)
 
-In the output, you'll find options to open the app in a
+## 👥 Clients & Sponsors
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### **Clients (Target Users):**
+- Engineering students (ECE, IT, CSE, Mechanical, etc.)
+- College communities & tech clubs
+- Aspiring developers & project teams
+- Anyone looking for a **structured learning and collaboration platform**
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### **Sponsors:**
+- (Currently self-funded, with future plans for sponsorships or institutional support)
 
-## Get a fresh project
+## 🚀 Features
 
-When you're ready, run:
+- ✅ **User Authentication** (Google via Clerk)
+- ✅ **Real-time Chat & Discussions**
+- ✅ **Community Creation & Management**
+- ✅ **Profile Customization & Sharing**
+- ✅ **Community Navigation** (Easily browse and join different topic-based communities)
 
-```bash
-npm run reset-project
+![Features](https://your-image-link-here.com/features.svg)
+
+## 🚀 Upcoming Features
+
+- 🔄 **Reply in Chat**  
+- 🖼️ **Multimedia Sharing (Images & Videos)**  
+- 🏗️ **Custom Community Creation**  
+- 🗑️ **Community Deletion Feature**  
+
+![Upcoming Features](https://your-image-link-here.com/upcoming.svg)
+
+## 📌 Why This App?
+
+✅ **Personalized Communities** – Create topic-based communities.  
+✅ **Real-Time Discussions** – Engage instantly with peers.  
+✅ **Beginner-Friendly** – Easy-to-use interface for students & professionals.  
+✅ **Covers All Domains** – Not just coding, but all knowledge fields.  
+
+![Why This App](https://your-image-link-here.com/why.svg)
+
+## 🛠 Tech Stack
+
+| Technology   | Usage  |
+|-------------|--------|
+| **React Native & Expo** | Frontend Development |
+| **Firebase Firestore** | Backend & Database |
+| **Clerk** | Authentication |
+| **Figma** | UI/UX Design |
+
+![Tech Stack](https://your-image-link-here.com/techstack.svg)
+
+## 🔥 How Firebase Works in This App
+
+- Stores user profiles, messages, and community details in **Firestore**.
+- Uses **real-time listeners** to update chat messages and community activity instantly.
+- Provides **scalable and secure** data management.
+
+## 📸 Screenshots & Prototype Link
+
+📷 **App Screenshots**  
+![Screenshot 1](https://drive.google.com/file/d/141gm_g3Mwga0Np3Viu-R2W2bkdFcKX43/view?usp=drive_link)  
+![Screenshot 2](https://drive.google.com/file/d/1JgNAWHCjP9zxy2eKZyLfeBSlNPsfIlVU/view?usp=drive_link)  
+![Screenshot 3](https://drive.google.com/file/d/1hW1ep-qRJ-J6F3_4PI9tLc4hRIds_jep/view?usp=drive_link)  
+![Screenshot 4](https://drive.google.com/file/d/1XtaOulyxYXwPnp59vcRSSgDZWotE97M7/view?usp=drive_link)  
+![Screenshot 5](https://drive.google.com/file/d/1iVJlo3UJ1whNT7FTcRu5xZSrJPgjgT7e/view?usp=drive_link)  
+![Screenshot 6](https://drive.google.com/file/d/1JrVbe71vSCRxQ3rhgb-EtxK8Hf6hNp8Y/view?usp=drive_link)  
+
+🔗 **Figma Prototype** – [Insert Figma Link Here]
+
+## 📥 Installation & Setup
+
+```sh
+# Clone the repository
+git clone https://github.com/your-repo/pandaUnity.git
+cd pandaUnity
+
+# Install dependencies
+npm install
+
+# Run the app
+npm expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📢 Contributing
+We welcome contributions! If you have ideas for new features or improvements, feel free to **open an issue** or **submit a pull request**. 🚀
 
-## Learn more
+## 📜 License
+This project is **open-source** under the [MIT License](LICENSE).
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# pandaUnitiy
+🎉 **Thank you for being a part of PandaUnity!**
